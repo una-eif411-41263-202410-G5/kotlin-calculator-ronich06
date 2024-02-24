@@ -36,7 +36,7 @@ class NewsletterDisplayListenerTest {
         }
 
         Assertions.assertEquals(
-            "Mostrando en Teléfono [Curso Progra 2 abierto con capacidad de 30]\n"
+            "Mostrando en Teléfono [Curso Progra 2 abierto con capacidad de 30]\r\n"
                     + "Mostrando en Pagina Web [Curso Progra 2 abierto con capacidad de 30]",
             output.trim()
         )

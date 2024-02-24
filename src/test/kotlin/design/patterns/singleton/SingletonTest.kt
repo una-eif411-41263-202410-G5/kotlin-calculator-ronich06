@@ -37,11 +37,11 @@ class SingletonTest {
             var myClass2 = MyClass()
         }
 
-        assertEquals("[SE INVOCA LA CLASE SOLO LA PRIMERA VEZ]\n" +
-                "Programación App Móvil\n" +
-                "[MÉTODO INICIAL]\n" +
-                "Programación Web\n" +
-                "[MÉTODO INICIAL]\n" +
-                "Programación Funcional\n",output)
+        assertEquals("[SE INVOCA LA CLASE SOLO LA PRIMERA VEZ]\r\n" +
+                "Programación App Móvil\r\n" +
+                "[MÉTODO INICIAL]\r\n" +
+                "Programación Web\r\n" +
+                "[MÉTODO INICIAL]\r\n" +
+                "Programación Funcional\r\n",output)
     }
 }
